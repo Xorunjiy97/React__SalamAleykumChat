@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
-import chat from '../manager/chat/reducer';
-import user from '../manager/user/reducer';
-import view from '../manager/view/reducer';
+import chat from '../managers/chat/reducer';
+import user from '../managers/user/reducer';
+import view from '../managers/view/reducer';
 
 export default combineReducers({
    chat,
